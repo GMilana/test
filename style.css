@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@100;200;300;400&display=swap');
+
+body {
+    background-color: rgb(210, 150, 216);
+    font-family: 'Montserrat';
+}
+
+
+.sprint1 {
+    background-color: rgb(243, 203, 255);
+    width: 1100px;
+    height: 450px;
+    margin: 20px 80px;
+    padding: 10px;
+    border-radius: 2%;
+
+}
+
+h1,
+h4 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.view {
+    background-color: rgb(249, 221, 255);
+    width: 240px;
+    margin: 20px;
+    padding: 10px;
+    height: 120px;
+    -webkit-box-shadow: 0px 0px 14px 6px rgba(83, 18, 90, 0.5);
+    -moz-box-shadow: 0px 0px 14px 6px rgba(83, 0, 90, 0.2);
+    box-shadow: 0px 0px 14px 6px rgba(83, 0, 90, 0.2);
+    border-radius: 3%;
+    transition: .3s;
+}
+
+.b {
+    width: 70px;
+    border: 1px solid rgb(106, 12, 129);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10%;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.view:hover {
+    width: 260px;
+    height: 140px;
+    transition: .3s;
+}
+
+.a a {
+    color: rgb(205, 84, 230);
+    text-decoration: none;
+    margin: 0;
+    height: 19px;
+    width: 44px;
+}
+
+.a a::after {
+    position: absolute;
+    content: '>';
+    transition: .5s;
+}
+
+.a a:hover::after {
+    transform: translateX(10px);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.b:hover {
+    width: 90px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s;
+   
+}
+
+.a h4 {
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgba(128, 18, 128, 0.5);
+
+}
+
+h2 {
+    transition: .3s;
+}
+
+h2:hover {
+    color: rgb(148, 0, 161);
+    transition: .3s;
+}
